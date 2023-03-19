@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #ddd;
+    /* padding: 10px; */
+}
+
+.bookList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.book{
+    border : 2px solid #000;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-fluid
+{
+    width: 500px;
+    height:auto;
+    padding: 0px 0px 80px 0px;
+}
+.container {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+.container .search {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+
+.container .search h1 {
+letter-spacing: 3px;
+display: inline-block;
+border-bottom: 2px solid white;
+padding-bottom: 10px;
+padding-left: 10px;
+border-bottom-left-radius: 10px;
+}
+
+.container .search input {
+    width: 70%;
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    outline:none;
+}
+
+.container .bookList {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    text-align: left;
+}
+
+.container .bookList .book {
+    margin-top: 30px;
+}
+
+/* @media only screen and (max-width:400px){
+    .container-fluid{
+        width: 90%;
+        height: 90%;
+    }
+}
+
+ @media only screen and (min-width:800px){
+        .container-fluid{
+            width: 90%;
+            height: 90%;
+        }            
+} */
+
+.container .bookList .book h3 {
+    padding-top: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 400px;
+}
